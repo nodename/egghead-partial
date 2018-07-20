@@ -23,7 +23,3 @@ const twoTester = array => arrayFilter(twoIsLessThan, array);
 console.log(twoTester(data));
 
 const printer = x => console.log("value = " + x);
-
-const arrayForEach = (f, array) => array.forEach(f);
-
-arrayForEach(printer, data);
