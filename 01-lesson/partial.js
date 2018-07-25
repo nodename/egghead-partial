@@ -21,5 +21,3 @@ const arrayFilter = (predicate, array) => array.filter(predicate);
 
 const twoTester = array => arrayFilter(twoIsLessThan, array);
 console.log(twoTester(data));
-
-const printer = x => console.log("value = " + x);
